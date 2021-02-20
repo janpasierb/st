@@ -1,0 +1,29 @@
+--- config.def.h	2021-02-16 20:27:22.195880093 +0000
++++ config.h	2021-02-17 21:56:21.522595003 +0000
+@@ -5,7 +5,7 @@
+  *
+  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+  */
+-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
++static char *font = "Adobe Courier:pixelsize=14:antialias=true:autohint=true";
+ static int borderpx = 2;
+ 
+ /*
+@@ -16,7 +16,7 @@
+  * 4: value of shell in /etc/passwd
+  * 5: value of shell in config.h
+  */
+-static char *shell = "/bin/sh";
++static char *shell = "/bin/zsh";
+ char *utmp = NULL;
+ /* scroll program: to enable use a string like "scroll" */
+ char *scroll = NULL;
+@@ -110,7 +110,7 @@
+ 	"red",
+ 	"green",
+ 	"yellow",
+-	"#5c5cff",
++	"orange",
+ 	"magenta",
+ 	"cyan",
+ 	"white",
